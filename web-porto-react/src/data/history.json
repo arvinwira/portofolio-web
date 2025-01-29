@@ -1,0 +1,19 @@
+[
+    {
+      "role": "Undergraduate Informatics Student",
+      "organisation": "UPN Veteran Jakarta",
+      "startDate": "2021",
+      "endDate": "Present",
+      "experiences": ["7th Semester", "GPA 3.81"],
+      "imageSrc": "../../assets/history/upnvj.png"
+    },
+    {
+      "role": "Mobile Development Cohort",
+      "organisation": "Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka",
+      "startDate": "Feb, 2024",
+      "endDate": "July, 2024",
+      "experiences": ["Capstone Project", "Finished All Courses"],
+      "imageSrc": "../../assets/history/bangkit.png"
+    }
+    
+  ]

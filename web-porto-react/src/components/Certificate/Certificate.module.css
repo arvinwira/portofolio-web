@@ -1,0 +1,124 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    var(--color-secondary) 70%, 
+    var(--color-dark) 120% 
+  );
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 129px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px; /* Space between items */
+}
+
+.certificateImage {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  filter: grayscale(100%) brightness(0) invert(1);
+}
+
+.certificateLink {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.certificateItems {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.certificateItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 25px;
+  background-image: linear-gradient(
+    90deg,
+    var(--color-dark) 70%, 
+    var(--color-bg) 120% 
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+
+.certificateItem:hover {
+  background-size: 100% 100%;
+}
+
+.certificateItem h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.certificateItem p {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 830px) {
+  /* Make the container background transparent on small screens */
+  .container {
+    background-color: transparent;
+    
+  }
+
+  /* Stack content vertically */
+  .content {
+    flex-direction: column;
+    align-items: center; /* Center the content */
+    gap: 20px; /* Adjust space between content */
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .certificateItems {
+    gap: 20px; /* Reduced gap on smaller screens */
+    margin-top: 29px;
+  }
+
+  /* Adjust certificateItem layout for smaller screens */
+  .certificateItem {
+    padding-left: 0;
+    padding-right: 0;
+    align-items: flex-start; /* Ensure items are aligned at the top */
+
+  }
+
+  .certificateImage {
+    display: none;
+  }
+
+  .certificateItem h3,
+  .certificateItem p {
+    font-size: 20px; /* Adjust font size for better readability */
+  }
+}

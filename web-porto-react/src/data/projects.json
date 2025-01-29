@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Chat App",
+    "imageSrc": "../../assets/projects/Chat.png",
+    "description": "A real-time chat application built with the MERN stack (MongoDB, Express.js, React, and Node.js), developed as part of my journey to learn web development.",
+    "skills": ["MongoDB", "Express.js", "React.js", "Node.js"],
+    "source": "https://github.com/arvinwira/ChatApp"
+  },
+    {
+      "title": "Book Tracker App ",
+      "imageSrc": "../../assets/projects/memorabilia.png",
+      "description": "Memorabillia is a book tracker app aimed at enhancing reader engagement by leveraging progress tracking and personalized recommendations.",
+      "skills": ["Kotlin", "Android", "Android Studio"],
+      "source": "https://github.com/Memorabillia/Memorabillia"
+    },
+    {
+      "title": "Book Inventory App",
+      "imageSrc": "../../assets/projects/BookInventory.png",
+      "description": "A simple book inventory management system (CRUD) built with the MERN stack (MongoDB, Express, React, Node.js) to learn full-stack development fundamentals.",
+      "skills": ["MongoDB", "Express.js", "React.js", "Node.js"],
+      "source": "https://www.github.com"
+    }
+    
+  ]

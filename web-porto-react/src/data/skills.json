@@ -1,0 +1,34 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "../../assets/skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "../../assets/skills/css.png"
+    },
+    {
+      "title": "JavaScript",
+      "imageSrc": "../../assets/skills/javascript.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "../../assets/skills/react.png"
+    },
+    {
+      "title": "Android",
+      "imageSrc": "../../assets/skills/android.png"
+    },
+    {
+      "title": "Python",
+      "imageSrc": "../../assets/skills/python.png"
+    },
+    {
+      "title": "Figma",
+      "imageSrc": "../../assets/skills/figma.png"
+    },
+    {
+      "title": "Kotlin",
+      "imageSrc": "../../assets/skills/kotlin.png"
+    }
+  ]
